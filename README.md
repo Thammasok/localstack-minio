@@ -1,4 +1,4 @@
-# localstack-minio
+๒# localstack-minio
 
 AWS Local with Localstack and S3 compatible object store
 
@@ -26,4 +26,17 @@ docker compose up -d
 
 ```bash
 docker compose down -v
+```
+
+## AWS S3 config
+
+Default of minio conf
+
+```text
+S3_ENDPOINT=localstack
+S3_PORT=4566
+S3_SSL=false # If on localhost, keep it at false. If deployed on https, change to true
+S3_ACCESS_KEY=minioadmin
+S3_SECRET_KEY=minioadmin
+S3_REGION=us-east-1
 ```
