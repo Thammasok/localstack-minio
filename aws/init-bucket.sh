@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # https://docs.localstack.cloud/user-guide/aws/s3/
 
